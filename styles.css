@@ -1,0 +1,186 @@
+@import url('https://font.googleapis.com/css?family=Raleway');
+@import url('https://font.googleapis.com/css?family=Oswald');
+
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    font: 400 15px Lato, sans-serif;
+}
+
+
+.intro{
+    height:100%;
+    width:100%;
+    margin:auto;
+    background: url(pexels-photo-316877.jpeg) no-repeat 50% 50% ;
+    display: table;
+    top:0;
+    background-size: cover;
+    
+}
+
+.intro .inner{
+    display:table-cell;
+    vertical-align:  middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1{
+    font-family:'Raleway', sans-serif;
+    color: #CE8A49;
+    text-shadow: 20px 20px 400px #000;
+    font-size: 600%;
+    font-weight: 700;
+}
+
+.content h2{
+    font-family:'Raleway', sans-serif;
+    color: #CE8A49;
+    text-shadow: 80px 80px 1000px #000;
+    font-size: 300%;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    font-weight: 800;
+}
+
+.btnn{
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #CE8A49;
+    font-size: 190%;
+    font-weight: 150%;
+    padding: 30px;
+    border: solid #CE8A49 5px; 
+    text-decoration: none;
+    text-shadow: 20px 20px 800px #000;
+    font-weight: 800;
+}
+
+.btnn:hover{
+    color:#fff;
+    border: solid #fff 3px;
+}
+
+
+
+/* Header */
+
+.navbar-brand a{
+    font-size:90px;
+}
+
+
+li a:hover:not(.active) {
+    color: #CE8A49;
+}
+
+
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+    background-color: white;
+  }
+.navbar li a, .navbar .navbar-brand { 
+      color: #2d2d30 !important;
+      margin: 10px;
+  }
+.navbar {
+      
+      margin-bottom: px;
+      background-color: white;
+      border: 0 ;
+      font-size: 13px !important;
+      letter-spacing: 4px;
+      opacity: 1;
+  }
+.navbar-nav li a:hover {
+      color: #CE8A49 !important;
+  }
+  
+  
+  .logo-small {
+    color: #CE8A49;
+    font-size: 50px;
+}
+
+  .logoo-small {
+    color: #CE8A49;
+    font-size: 30px;
+}
+
+
+.logo{
+    height: 65px;
+    margin-top: -15px;
+}
+
+
+.row p {
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.container-fluid h2{
+    color: #CE8A49;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+footer {
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:white;
+   padding-top: 15px;
+   font-size: 13px !important;
+    letter-spacing: 4px;
+    opacity: 0.95;
+}
+
+#waarom{
+    margin: 50px 100px 100px 100px;
+    
+    
+}
+#wat{
+    margin: 50px 100px 100px 100px;
+    
+    
+}
+
+.row hr{
+    display: block;
+    width:30%;
+    border-top: 5px solid #CE8A49;
+}
+
+p{
+     font-size: 14px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+      opacity: 0.95;
+}
+
+h4{
+    font:  Lato, sans-serif;
+    font-size: 14px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 800;
+      margin-bottom: 30px;
+      opacity: 0.95;
+}
