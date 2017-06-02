@@ -21,6 +21,8 @@ html, body{
     
 }
 
+
+
 .intro .inner{
     display:table-cell;
     vertical-align:  middle;
@@ -29,7 +31,7 @@ html, body{
 }
 
 .content{
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -40,17 +42,20 @@ html, body{
     text-shadow: 20px 20px 400px #000;
     font-size: 600%;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .content h2{
+    
     font-family:'Raleway', sans-serif;
     color: #CE8A49;
     text-shadow: 80px 80px 1000px #000;
-    font-size: 300%;
-    padding-top: 75px;
-    padding-bottom: 80px;
+    font-size: 200%;
     font-weight: 800;
+    margin-bottom: 90px;
 }
+
+
 
 .btnn{
     border-radius: 10px;
@@ -58,7 +63,7 @@ html, body{
     color: #CE8A49;
     font-size: 190%;
     font-weight: 150%;
-    padding: 30px;
+    padding: 27px;
     border: solid #CE8A49 5px; 
     text-decoration: none;
     text-shadow: 20px 20px 800px #000;
@@ -125,12 +130,22 @@ li a:hover:not(.active) {
 
 
 .row p {
-    padding-left: 40px;
-    padding-right: 40px;
+    font-family: 'Merriweather',serif;
+            line-height: 1.3;
+        font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
 .container-fluid h2{
+    color: #CE8A49;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container-fluid h1{
     color: #CE8A49;
     font-size: 40px;
     font-family: sans-serif;
@@ -176,13 +191,12 @@ p{
 }
 
 h4{
-    font:  Lato, sans-serif;
-    font-size: 14px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 800;
-      margin-bottom: 30px;
-      opacity: 0.95;
+    font-family: 'Merriweather',serif;
+    line-height: 1.3;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer {
