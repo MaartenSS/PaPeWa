@@ -165,12 +165,10 @@ footer {
 }
 
 #waarom{
-    margin: 50px 100px 150px 180px;
-    
     
 }
 #wat{
-    margin: 50px 100px 100px 180px;
+    
     
     
 }
@@ -182,6 +180,7 @@ footer {
 }
 
 p{
+    text-align: justify;
      font-size: 14px;
       line-height: 1.375em;
       color: #303030;
